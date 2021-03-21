@@ -8,6 +8,8 @@ import PortfolioContext from '../../context/context';
 const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { footer } = useContext(PortfolioContext);
+  const { networks } = footer;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -60,6 +62,23 @@ const About = () => {
                     </a>
                   </span>
                 )}
+                <div className="social-links-about">
+                  {networks &&
+                  networks.map((network) => {
+                    const { id, name, url } = network;
+                    return (
+                      <a
+                        key={id}
+                        href={url || 'https://www.linkedin.com/in/yahya-alagtash/'}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        aria-label={name}
+                      >
+                        <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                      </a>
+                    );
+                  })}
+                </div>
               </div>
             </Fade>
           </Col>

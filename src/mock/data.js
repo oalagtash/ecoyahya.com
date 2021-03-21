@@ -9,19 +9,19 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Welcome to Art of Digital ',
-  name: 'Kraft',
-  subtitle: 'EcoYahya for filmmaking service',
+  title: 'Welcome to the Art of Digital Kraft.',
+  name: 'EcoYahya ',
+  subtitle: 'for Filmmaking Services',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profile.jpeg',
+  paragraphOne: 'I am',
+  paragraphTwo: 'cool',
+  paragraphThree: 'And I know it',
+  resume: 'https://www.linkedin.com/in/yahya-alagtash/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -67,12 +67,12 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
+      name: 'youtube',
       url: '',
     },
     {
       id: nanoid(),
-      name: 'codepen',
+      name: 'instagram',
       url: '',
     },
     {
@@ -80,15 +80,5 @@ export const footerData = {
       name: 'linkedin',
       url: '',
     },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
-    },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
