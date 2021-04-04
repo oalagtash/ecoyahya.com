@@ -2,8 +2,10 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
-import YoutubeBackground from 'react-youtube-background';
+import loadable from '@loadable/component';
 import PortfolioContext from '../../context/context';
+
+const YoutubeBackground = loadable(() => import('react-youtube-background'));
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -24,6 +26,7 @@ const Header = () => {
 
   const playerOptions = {
     mute: 0,
+    autoplay: 1,
   };
 
   return (
