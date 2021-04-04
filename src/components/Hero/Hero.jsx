@@ -26,7 +26,7 @@ const Header = () => {
 
   const playerOptions = {
     mute: 0,
-    autoplay: 0,
+    autoplay: 1,
   };
 
   return (
