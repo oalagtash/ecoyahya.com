@@ -23,7 +23,7 @@ const Clients = () => {
       {
         breakpoint: 520,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 4,
         },
       },
     ],

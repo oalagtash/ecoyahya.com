@@ -17,10 +17,11 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpeg',
-  paragraphOne: 'I am',
-  paragraphTwo: 'cool',
-  paragraphThree: 'And I know it',
+  img: 'profile.jpg',
+  paragraphOne: 'Hello, I am Yahya, an independent film maker.',
+  paragraphTwo:
+    'I have accumulated a variety of experience that allows me to take your business to the next level in the area of digital presence',
+  paragraphThree: '',
   resume: 'https://www.linkedin.com/in/yahya-alagtash/', // if no resume, the button will not show up
 };
 
@@ -29,11 +30,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Dr. Dentist advices',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    videoId: 'nlYlNF30bVg',
   },
   {
     id: nanoid(),
@@ -41,8 +41,7 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    videoId: 'SaGBWkACMJs',
   },
   {
     id: nanoid(),
@@ -50,8 +49,7 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    videoId: 'Czy4hhkQBXo',
   },
 ];
 
