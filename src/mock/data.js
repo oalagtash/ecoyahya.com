@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'I have accumulated a variety of experience that allows me to take your business to the next level in the area of digital presence',
   paragraphThree: '',
-  resume: 'https://www.linkedin.com/in/yahya-alagtash/', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1TmqKF8zFPMxbiJ3fByc1Db-CFM-mYOxk/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,26 +30,26 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Dr. Dentist advices',
-    info: '',
+    title: 'CORPORATE / PROJECT',
+    info: 'Our selected sample',
     info2: '',
-    videoId: 'nlYlNF30bVg',
+    videoId: 'NNMRcYT1jKM',
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'COMMERCIAL VIDEOS',
+    info: 'Our selected sample',
     info2: '',
-    videoId: 'SaGBWkACMJs',
+    videoId: 'TjDG1uPB9M8',
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'SOCIAL VIDEO CONTENT',
+    info: 'Our selected sample',
     info2: '',
-    videoId: 'Czy4hhkQBXo',
+    videoId: 'ILY4oXOxinI',
   },
 ];
 
@@ -57,7 +57,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'Yalagtash@gmail.com',
 };
 
 // FOOTER DATA
@@ -66,17 +66,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'youtube',
-      url: '',
+      url: 'https://www.youtube.com/channel/UCSp8IXahgZDT70bxUyepf4g',
     },
     {
       id: nanoid(),
       name: 'instagram',
-      url: '',
+      url: 'https://www.instagram.com/ecoyahya/',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/yahya-alagtash/',
     },
   ],
 };

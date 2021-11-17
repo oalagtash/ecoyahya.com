@@ -35,25 +35,7 @@ const Clients = () => {
         <Title title="Our Clients" />
         <Slider className="customer-logos" {...settings}>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image1.png" />
-          </div>
-          <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image2.png" />
-          </div>
-          <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image3.png" />
-          </div>
-          <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image4.png" />
-          </div>
-          <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image5.png" />
-          </div>
-          <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image6.png" />
-          </div>
-          <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image7.png" />
+            <img src="https://drive.google.com/file/d/17TTJRfpxRDRNdVfQML_G-H_LqYbOmB5y/GJU_.png" />
           </div>
           <div className="slide">
             <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image8.png" />
