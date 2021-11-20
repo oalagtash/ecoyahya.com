@@ -35,10 +35,52 @@ const Clients = () => {
         <Title title="Our Clients" />
         <Slider className="customer-logos" {...settings}>
           <div className="slide">
-            <img src="https://drive.google.com/file/d/17TTJRfpxRDRNdVfQML_G-H_LqYbOmB5y/GJU_.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Derma.png"
+              alt=""
+            />
           </div>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image8.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Eatalio.png"
+              alt=""
+            />
+          </div>
+          <div className="slide">
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/GJU.png"
+              alt=""
+            />
+          </div>
+          <div className="slide">
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Jafco.png"
+              alt=""
+            />
+          </div>
+          <div className="slide">
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Prestieg.png"
+              alt=""
+            />
+          </div>
+          <div className="slide">
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Ruba.png"
+              alt=""
+            />
+          </div>
+          <div className="slide">
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Samah.png"
+              alt=""
+            />
+          </div>
+          <div className="slide">
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/SHAMI_EYE.png"
+              alt=""
+            />
           </div>
         </Slider>
       </Container>
