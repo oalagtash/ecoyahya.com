@@ -1,18 +1,13 @@
 #clients {
   background-color: $white-color;
   color: $dark-blue-text;
-  margin: 5rem 0 20rem 0;
-  padding: 15rem 0;
+  padding: 10% 0 18% 0px;
 
-
-  @include respond(tab-land) {
-    margin: 5rem 0;
-  }
 }
 
 .customer-logos {
   background-color: $white-color;
-  padding-top: 5rem;
+  padding-top: 2%;
 }
 
 /* Slider */

@@ -1,5 +1,5 @@
 {
-  "name": "ecoyahya.com",
+  "name": "www.ecoyahya.com",
   "private": true,
   "description": "A portfolio website for EcoYahya Company for film making",
   "version": "0.1.0",
@@ -56,10 +56,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/oalagtash/ecoyahya.com"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/oalagtash/ecoyahya.com/issues"
   },
   "husky": {
     "hooks": {
