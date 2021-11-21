@@ -31,49 +31,49 @@ const Clients = () => {
         <Slider className="customer-logos" {...settings}>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Derma.png"
+              src="https://raw.githubusercontent.com/oalagtash/ecoyahya.com/master/src/images/clientsLogo/Derma.png"
               alt=""
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Eatalio.png"
+              src="https://raw.githubusercontent.com/oalagtash/ecoyahya.com/master/src/images/clientsLogo/Eatalio.png"
               alt=""
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/GJU.png"
+              src="https://raw.githubusercontent.com/oalagtash/ecoyahya.com/master/src/images/clientsLogo/GJU.png"
               alt=""
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Jafco.png"
+              src="https://raw.githubusercontent.com/oalagtash/ecoyahya.com/master/src/images/clientsLogo/Jafco.png"
               alt=""
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Prestieg.png"
+              src="https://raw.githubusercontent.com/oalagtash/ecoyahya.com/master/src/images/clientsLogo/Prestieg.png"
               alt=""
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Ruba.png"
+              src="https://raw.githubusercontent.com/oalagtash/ecoyahya.com/master/src/images/clientsLogo/Ruba.png"
               alt=""
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Samah.png"
+              src="https://raw.githubusercontent.com/oalagtash/ecoyahya.com/master/src/images/clientsLogo/Samah.png"
               alt=""
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/SHAMI_EYE.png"
+              src="https://raw.githubusercontent.com/oalagtash/ecoyahya.com/master/src/images/clientsLogo/SHAMI_EYE.png"
               alt=""
             />
           </div>
