@@ -6,24 +6,19 @@ import Title from '../Title/Title';
 const Clients = () => {
   const settings = {
     dots: false,
-    infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 4,
+    infinite: true,
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
     pauseOnHover: false,
+    lazyLoad: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 4,
         },
       },
     ],
@@ -35,28 +30,52 @@ const Clients = () => {
         <Title title="Our Clients" />
         <Slider className="customer-logos" {...settings}>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image1.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Derma.png"
+              alt=""
+            />
           </div>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image2.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Eatalio.png"
+              alt=""
+            />
           </div>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image3.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/GJU.png"
+              alt=""
+            />
           </div>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image4.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Jafco.png"
+              alt=""
+            />
           </div>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image5.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Prestieg.png"
+              alt=""
+            />
           </div>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image6.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Ruba.png"
+              alt=""
+            />
           </div>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image7.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/Samah.png"
+              alt=""
+            />
           </div>
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image8.png" />
+            <img
+              src="https://raw.githubusercontent.com//oalagtash/ecoyahya.com/feature/content-edit/src/images/clientsLogo/SHAMI_EYE.png"
+              alt=""
+            />
           </div>
         </Slider>
       </Container>

@@ -4,9 +4,9 @@
 
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  padding: 15rem 0 10rem 0;
-  margin-top: -5rem;
-  margin-bottom: -1px;
+  padding: 20rem 0 8rem 0;
+  margin-top: 4rem;
+  margin-bottom: 0px;
 
   @include respond(tab-land) {
     margin-top: 0;
@@ -76,9 +76,8 @@
   }
 }
 
-
 .gallery-video {
-  flex: 1 0 24rem;
+  flex: 24rem 0 24rem;
   /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
   margin: 1rem;
   overflow: hidden;
@@ -91,6 +90,10 @@
 
 }
 
+.gallery-video iframe{
+  height: 630px;
+}
+
 .gallery-image:hover {
   transform: scale(1.15);
 }
@@ -99,7 +102,7 @@
   min-height: 100%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
 }
 .grid > div {
   display: flex;
