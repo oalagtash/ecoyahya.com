@@ -31,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'CORPORATE / PROJECT',
-    info: 'Our selected sample',
+    info: '',
     info2: '',
     videoId: 'NNMRcYT1jKM',
   },
@@ -39,7 +39,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'COMMERCIAL VIDEOS',
-    info: 'Our selected sample',
+    info: '',
     info2: '',
     videoId: 'TjDG1uPB9M8',
   },
@@ -47,7 +47,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'SOCIAL VIDEO CONTENT',
-    info: 'Our selected sample',
+    info: '',
     info2: '',
     videoId: 'ILY4oXOxinI',
   },
@@ -57,7 +57,8 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'Yalagtash@gmail.com',
+  phone: '+962799742464',
+  email: 'yalagtash@gmail.com',
 };
 
 // FOOTER DATA

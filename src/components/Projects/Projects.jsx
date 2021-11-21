@@ -1,10 +1,10 @@
+import YouTube from 'react-youtube';
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import YouTube from 'react-youtube';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -40,9 +40,8 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Show Case" />
           <div className="grid">
-
-            {projects.map((project) => {
-              const { title, info, info2, videoId, id } = project;
+            {projects.map(project => {
+              const { title, info, info2, videoId } = project;
 
               return (
                 <container className="gallery-video">
@@ -56,9 +55,7 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info || 'bla bla'}
-                        </p>
+                        <p>{info || ''}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                     </div>

@@ -80,7 +80,9 @@
   border-radius:5px;
   background: $primary-color;
   transition: all 0.30s ease 0s;
+  min-height: 35rem;
 }
+
 .service_box:hover{
   background:$secondary-color;
 }
@@ -98,6 +100,7 @@
 .service_box:hover .service_icon{
   transform: translateY(-100%);
 }
+
 .service_box .service_icon i{
   color:#333;
 }
