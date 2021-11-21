@@ -39,17 +39,9 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || ''}
-                </p>
+                <p className="about-wrapper__info-text">{paragraphOne}</p>
+                <p className="about-wrapper__info-text">{paragraphTwo}</p>
+                <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
@@ -64,20 +56,20 @@ const About = () => {
                 )}
                 <div className="social-links-about">
                   {networks &&
-                  networks.map((network) => {
-                    const { id, name, url } = network;
-                    return (
-                      <a
-                        key={id}
-                        href={url || 'https://www.linkedin.com/in/yahya-alagtash/'}
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        aria-label={name}
-                      >
-                        <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
-                      </a>
-                    );
-                  })}
+                    networks.map(network => {
+                      const { id, name, url } = network;
+                      return (
+                        <a
+                          key={id}
+                          href={url || 'https://www.linkedin.com/in/yahya-alagtash/'}
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          aria-label={name}
+                        >
+                          <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                        </a>
+                      );
+                    })}
                 </div>
               </div>
             </Fade>
