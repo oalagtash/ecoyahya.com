@@ -6,24 +6,19 @@ import Title from '../Title/Title';
 const Clients = () => {
   const settings = {
     dots: false,
-    infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    infinite: true,
+    slidesToScroll: 1,
     autoplay: true,
     arrows: false,
     pauseOnHover: false,
+    lazyLoad: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 4,
         },
       },
     ],

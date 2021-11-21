@@ -72,7 +72,7 @@ const Projects = () => {
                         easing: 'cubic-bezier(.03,.98,.52,.99)',
                       }}
                     >
-                      <div data-tilt className="thumbnail rounded">
+                      <div className="thumbnail rounded">
                         <YouTube opts={opts} videoId={videoId} />
                       </div>
                     </Tilt>

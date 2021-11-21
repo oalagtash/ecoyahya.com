@@ -12,7 +12,7 @@ export const heroData = {
   title: 'Welcome to the Art of Digital Kraft.',
   name: 'EcoYahya ',
   subtitle: 'for Filmmaking Services',
-  cta: '',
+  cta: 'Our Services',
 };
 
 // ABOUT DATA
@@ -56,7 +56,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  phone: '+962799742464',
+  phone: '+962 799742464',
   email: 'yalagtash@gmail.com',
 };
 
