@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Yahya', // e.g: 'Name | Developer'
+  title: 'EcoYahya',
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Lets KRAFT!', // e.g: Welcome to my website
 };
@@ -56,7 +56,6 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
   phone: '+962799742464',
   email: 'yalagtash@gmail.com',
 };
