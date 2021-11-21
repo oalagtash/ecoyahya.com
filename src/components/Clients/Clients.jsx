@@ -11,6 +11,7 @@ const Clients = () => {
     infinite: true,
     slidesToScroll: 1,
     autoplay: true,
+    autoplaySpeed: 1500,
     arrows: false,
     pauseOnHover: false,
     lazyLoad: true,
