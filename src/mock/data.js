@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Hello, I am Yahya, an independent film maker.',
+  paragraphOne: 'Hello, Directed and produced by Yahya Al-Agtash, Ecoyahya The art of digital kraft,',
   paragraphTwo:
-    'I have accumulated a variety of experience that allows me to take your business to the next level in the area of digital presence',
+    'We have accumulated a variety of experience that allows me to take your business to the next level in the area of digital presence. Full-service commercial and brand film production, we are based in Amman,Jordan. We have the combined capabilities of an advertising agency, video production company, and post-production house ',
   paragraphThree: '',
   resume: 'https://drive.google.com/file/d/1TmqKF8zFPMxbiJ3fByc1Db-CFM-mYOxk/view?usp=sharing', // if no resume, the button will not show up
 };
