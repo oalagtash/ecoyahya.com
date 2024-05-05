@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import { Container } from 'react-bootstrap';
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-awesome-reveal';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { headData } from '../mock/data';

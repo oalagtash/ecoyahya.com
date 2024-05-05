@@ -18,7 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Hello, Directed and produced by Yahya Al-Agtash, Ecoyahya The art of digital kraft,',
+  paragraphOne:
+    'Hello, Directed and produced by Yahya Al-Agtash, Ecoyahya The art of digital kraft,',
   paragraphTwo:
     'We have accumulated a variety of experience that allows us to take your business to the next level in the area of digital presence. Full-service commercial and brand film production, Ecoyahya have the combined capabilities of an advertising agency, video production company, and post-production house. We are based in Amman,Jordan.  ',
   paragraphThree: '',

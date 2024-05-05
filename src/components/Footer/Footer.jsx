@@ -17,7 +17,7 @@ const Footer = () => {
         </span>
         <div className="social-links">
           {networks &&
-            networks.map((network) => {
+            networks.map(network => {
               const { id, name, url } = network;
               return (
                 <a
@@ -35,7 +35,11 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} EcoYahya <br /> <br /> Website developed by{' '}
-          <a href="https://www.linkedin.com/in/oweis-al-agtash-b2010b101/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/oweis-al-agtash-b2010b101/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Oweis Al-Agtash
           </a>
         </p>
