@@ -17,6 +17,15 @@ export default function HTML({
     <html {...htmlAttributes}>
       <head>
     <meta name="google-site-verification" content="M6-t6nRHf9KQwUQrg2D72eTEWXjj93rUoK1nWeMaeWY" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8ZLWTVDQ4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q8ZLWTVDQ4');
+</script>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
