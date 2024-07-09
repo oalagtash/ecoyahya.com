@@ -51,7 +51,7 @@ const Services = () => (
               </div>
               <h3>Advertising & Marketing </h3>
               <p>
-                let us control every thing , Creating a marketing strategy for a year, and Crafting
+                let us control every thing , Creating a marketing strategy for a year, and kraft
                 all the content that is needed
               </p>
             </div>
