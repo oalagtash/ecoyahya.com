@@ -1,30 +1,40 @@
 import YouTube from 'react-youtube';
-import React, {useContext, useEffect, useState} from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-awesome-reveal';
-import {Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
 const Projects = () => {
-  const {projects} = useContext(PortfolioContext);
+  const { projects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth > 769) {
-      setIsDesktop(true);
-      setIsMobile(false);
-    } else {
-      setIsMobile(true);
-      setIsDesktop(false);
-    }
+    const handleResize = () => {
+      if (window.innerWidth > 769) {
+        setIsDesktop(true);
+        setIsMobile(false);
+      } else {
+        setIsMobile(true);
+        setIsDesktop(false);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    handleResize();
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   const opts = {
-    height: '100%', width: '100%', playerVars: {
+    height: '390', // Set a fixed height to maintain aspect ratio
+    width: '100%', // Responsive width
+    playerVars: {
       // https://developers.google.com/youtube/player_parameters
-      autoplay: 0, loop: 1, controls: 1, modestbranding: 1,
+      autoplay: 0,
+      loop: 1,
+      controls: 1,
+      modestbranding: 1,
     },
   };
 
@@ -35,8 +45,7 @@ const Projects = () => {
           <Title title="Show Case" />
           <Row>
             {projects.map(project => {
-              const {title, info, info2, videoId} = project;
-
+              const { title, info, info2, videoId } = project;
               return (
                 <Col md={6} key={project.id} className="mb-4">
                   <Fade
