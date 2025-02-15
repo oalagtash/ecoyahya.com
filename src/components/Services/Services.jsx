@@ -31,11 +31,7 @@ const Services = () => (
                 Content that drives engagement. We craft monthly content strategies and produce high-quality videos, reels, 
                 and short-form content designed to grow your brand's social presence. Our content is optimized for platforms like Instagram, TikTok, LinkedIn, Facebook, and YouTube.
                 Includes:
-✔️ Monthly content calendars
-✔️ Short-form videos (reels, TikToks, YouTube Shorts)
-✔️ Storytelling-based brand content
-✔️ Product and service highlights
-✔️ Animated or motion graphics content{' '}
+ Monthly content calendars, Short-form videos (reels, TikToks, YouTube Shorts), Storytelling-based brand content, Product and service highlights{' '}
               </p>
             </div>
           </div>
