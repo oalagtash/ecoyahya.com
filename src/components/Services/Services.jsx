@@ -13,10 +13,11 @@ const Services = () => (
               <div className="service_icon">
                 <i className="fa fa-film" />
               </div>
-              <h3>Corporate / Project Films</h3>
+              <h3>Corporate & Brand Films</h3>
               <p>
-                We present your business on a new level of promoting and raising awareness to your
-                company / Project as a whole{' '}
+                Bring your brand’s story to life. We create professional corporate videos that showcase your company’s mission, values, and impact. Whether it’s an about-us video, investor presentation, 
+                or internal communications piece, we make sure your message is powerful and visually compelling.{' '}
+                 Ideal for: Corporate profiles, internal communication, investor relations, recruitment videos, project case studies.
               </p>
             </div>
           </div>
@@ -25,10 +26,16 @@ const Services = () => (
               <div className="service_icon">
                 <i className="fa fa-video-camera" />
               </div>
-              <h3>Commercial Videos</h3>
+              <h3>Social Media Content Creation</h3>
               <p>
-                We provide your business / Product with a unique business Advertising Video for you
-                to stream on multiple platforms{' '}
+                Content that drives engagement. We craft monthly content strategies and produce high-quality videos, reels, 
+                and short-form content designed to grow your brand's social presence. Our content is optimized for platforms like Instagram, TikTok, LinkedIn, Facebook, and YouTube.
+                Includes:
+✔️ Monthly content calendars
+✔️ Short-form videos (reels, TikToks, YouTube Shorts)
+✔️ Storytelling-based brand content
+✔️ Product and service highlights
+✔️ Animated or motion graphics content{' '}
               </p>
             </div>
           </div>
@@ -37,10 +44,11 @@ const Services = () => (
               <div className="service_icon">
                 <i className="fa fa-sitemap" />
               </div>
-              <h3>Social Video Content</h3>
+              <h3>Event Coverage & Behind-the-Scenes (BTS) Content</h3>
               <p>
-                Is your business focused on social media? we got you, we Kraft you a monthly
-                Schedule Video, Images, Daily Stories ready to post{' '}
+                Capture the moments that matter. Whether it's a corporate event, product launch, seminar, or industry expo, we document the highlights and key moments with a cinematic touch. We also create Behind-the-Scenes (BTS) content, 
+                offering audiences an inside look at your company’s culture and creative process.
+                Ideal for: Conferences, networking events, product launches, team-building activities, BTS content for campaigns.{' '}
               </p>
             </div>
           </div>
@@ -49,10 +57,11 @@ const Services = () => (
               <div className="service_icon">
                 <i className="fa fa-lightbulb-o" />
               </div>
-              <h3>Advertising & Marketing </h3>
+              <h3>Testimonial & Case Study Videos </h3>
               <p>
-                let us control every thing , Creating a marketing strategy for a year, and kraft
-                all the content that is needed
+                Turn customer success into your best marketing tool. We craft authentic testimonial videos and case studies that build trust and credibility. 
+                Let your clients and team share real success stories that highlight your company’s impact.
+                 Ideal for: Client testimonials, partner success stories, employee spotlight videos, industry case studies.
               </p>
             </div>
           </div>
