@@ -53,7 +53,7 @@ const Services = () => (
               <div className="service_icon">
                 <i className="fa fa-lightbulb-o" />
               </div>
-              <h3>Testimonial & Case Study Videos </h3>
+              <h3>video editing services</h3>
               <p>
                 I bring your raw footage to life and tell a compelling story, transforming your clips into polished, engaging content. 
                 creating and customizing professional motion graphics, seamlessly editing green screen footage, and enhancing the narrative with expert sound design and music selection. 
