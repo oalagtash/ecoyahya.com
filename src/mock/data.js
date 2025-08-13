@@ -31,6 +31,14 @@ export const projectsData = [
  {
     id: nanoid(),
     img: 'project.jpg',
+    title: 'SOCIAL VIDEO CONTENT',
+    info: '',
+    info2: '',
+    videoId: 'Ty87Ck11VUU',
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
     title: 'CORPORATE / PROJECT',
     info: '',
     info2: '',
