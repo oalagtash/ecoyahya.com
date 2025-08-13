@@ -21,13 +21,21 @@ export const aboutData = {
   paragraphOne:
     'Hello, Directed and produced by Yahya Al-Agtash, Ecoyahya The art of digital kraft,',
   paragraphTwo:
-    'We have accumulated a variety of experience that allows us to take your business to the next level in the area of digital presence. Full-service commercial and brand film production, Ecoyahya have the combined capabilities of an advertising agency, video production company, and post-production house. We are based in Amman,Jordan.  ',
+    ' specialize in full-service commercial and brand film production, bringing together the strategic vision of an advertising agency, the creative execution of a video production company, and the detailed craftsmanship of a post-production house. From my base in Amman, Jordan, I provide a seamless, one-stop solution to elevate your brand's digital presence.  ',
   paragraphThree: '',
-  resume: 'Link here', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1GsceJCoycvnotONJiruirsg3ETP40an6/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+ {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'CORPORATE / PROJECT',
+    info: '',
+    info2: '',
+    videoId: 'KyKx-Yn0Du8',
+  },
   {
     id: nanoid(),
     img: 'project.jpg',
