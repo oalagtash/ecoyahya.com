@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Title from '../Title/Title';
 
 const Services = () => (
-  <section id="Our services">
+  <section id="services offered">
     <Container>
       <div className="services-wrapper">
         <Title title="Our services" />
@@ -55,9 +55,9 @@ const Services = () => (
               </div>
               <h3>Testimonial & Case Study Videos </h3>
               <p>
-                Turn customer success into your best marketing tool. We craft authentic testimonial videos and case studies that build trust and credibility. 
-                Let your clients and team share real success stories that highlight your company’s impact.
-                 Ideal for: Client testimonials, partner success stories, employee spotlight videos, industry case studies.
+                I bring your raw footage to life and tell a compelling story, transforming your clips into polished, engaging content. 
+                creating and customizing professional motion graphics, seamlessly editing green screen footage, and enhancing the narrative with expert sound design and music selection. 
+                 Ideal for: creative agencies, businesses, content creators, and event organizers seeking a professional editor who can deliver compelling video stories using advanced techniques
               </p>
             </div>
           </div>
